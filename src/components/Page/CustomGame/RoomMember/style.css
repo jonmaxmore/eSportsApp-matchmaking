@@ -1,0 +1,51 @@
+.ant-modal-content{
+    background: transparent !important;
+}
+.ant-modal-mask{
+    background: rgba(0,0,0,0.9) !important;
+}
+
+.delete img{
+    display: none;
+
+}
+/* .cone{
+    width:0;
+    height: 0;
+    border-left: 120px solid transparent;
+    border-right: 120px solid transparent;
+    border-top: 200px solid rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    filter: brightness(1.5);
+  } */
+
+.clip{
+    filter:brightness(0.3);
+    background: rgba(0,0,0,0.5);
+    /* clip-path: polygon(0% 0%, 0% 100%, 23% 100%, 43% 36%, 54% 36%, 76% 95%, 6% 95%, 0 100%, 100% 100%, 100% 0%); */
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 77% 96%, 56% 47%, 58% 36%, 39% 36%, 42% 47%, 25% 95%, 87% 95%, 44% 100%, 0 100%);
+
+}
+
+.arra{
+    clip-path: circle(50.0% at 50% 50%);
+}
+
+.source-beam {
+    position: absolute;
+    background: radial-gradient(
+        rgba(149,190,76,.7) 0%,
+        rgba(0,0,0,0) 70%);
+    border-radius: 50%;
+    width: 400px;
+    height: 8px;
+    z-index: 1;
+  }
+
+
+.Selecter .ant-select-selector{
+    border-radius: 0px !important;
+    height: 50px !important;
+    background-color: #2e2e2e !important;
+}
+

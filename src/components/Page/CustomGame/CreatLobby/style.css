@@ -1,0 +1,15 @@
+.Selectercustom .ant-select-selector{
+    border-radius: 0px !important;
+    height: 50px !important;
+    background-color: #2e2e2e !important;
+    justify-content: start !important;
+    border: 0px !important;
+  }
+  .Selectercustom .ant-select-selection-item{
+    justify-content: start !important;
+  }
+  
+  .Selectercustom .ant-select-selection-placeholder{
+    margin-top: 5px;
+  }
+

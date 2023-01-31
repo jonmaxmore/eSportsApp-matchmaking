@@ -1,0 +1,30 @@
+
+
+.SFriendList {
+  scroll-behavior: smooth;
+
+  
+}
+.SFriendList::-webkit-scrollbar {
+  width: 5px;
+  scroll-behavior: smooth;
+}
+
+/* Track */
+.SFriendList::-webkit-scrollbar-track {
+  background: #000000;
+  scroll-behavior: smooth;
+}
+
+/* Handle */
+.SFriendList::-webkit-scrollbar-thumb {
+  background: rgb(67, 142, 243);
+  background: linear-gradient(
+    0deg,
+    rgba(67, 142, 243, 1) 0%,
+    rgba(151, 214, 255, 1) 100%
+  );
+  scroll-behavior: smooth;
+}
+
+

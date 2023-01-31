@@ -1,0 +1,39 @@
+@import '~antd/dist/antd.css';
+
+.ant-popover-inner{
+    background-color: transparent !important;
+    border-radius: 999px !important;
+    
+}
+
+.ant-popover-inner-content{
+    padding: 0px !important;
+}
+
+.ant-popover-arrow-content{
+    background: #182c36 !important;
+}
+.ant-drawer-body{
+    padding: 0px !important;
+    overflow: hidden !important;
+}
+.ant-drawer-content{
+    z-index: 99 !important;
+    height: calc(100vh - 185px) !important;
+    transform: translateY(180px);
+}
+
+.ant-drawer-mask{
+    z-index: 40 !important;
+    
+}
+
+.ant-drawer-content-wrapper{
+    z-index: 99 !important;
+}
+
+.highlight{
+    z-index: 999 !important;
+    opacity: 1 !important;
+    filter: brightness(1) !important;
+}

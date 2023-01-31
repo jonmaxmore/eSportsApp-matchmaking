@@ -1,0 +1,19 @@
+.HomeStyle{
+    overflow-X: auto;
+    scroll-behavior: smooth;
+}
+
+.HomeStyle::-webkit-scrollbar{
+    width: 3px;
+    scroll-behavior: smooth;
+}
+
+.HomeStyle::-webkit-scrollbar-track {
+    background: #141f21; 
+    scroll-behavior: smooth;
+  }
+
+.HomeStyle::-webkit-scrollbar-thumb {
+    background: #5ba3f6; 
+    scroll-behavior: smooth;
+  }

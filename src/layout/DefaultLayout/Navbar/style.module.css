@@ -1,0 +1,104 @@
+.LI{
+    list-style: none;
+    cursor: pointer;
+}
+
+.LI:hover{
+    color: #2ab2eb;
+}
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+  }
+
+.UL{
+    list-style: none;
+    width: 100%;
+    height: 50%;
+    margin: auto;
+    background-color: #15181a;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(5, auto);
+    grid-gap: 10px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    list-style: none;
+    padding-Right: 10px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0.7;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.NeonText{
+    position: absolute;
+    top: 4px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    transform: translateY(15px) translateX(-30px);
+    text-shadow:
+      0 0 7px #F8DE72,
+      0 0 10px #F8DE72,
+      0 0 21px #F8DE72,
+      0 0 42px #fccb29,
+      0 0 82px #fccb29,
+      0 0 92px #fccb29,
+      0 0 102px #fccb29,
+      0 0 151px #fccb29;
+    
+}
+.box {
+    position: relative;
+    height:  400px;
+    width: 380px;
+    display: block;
+    background: linear-gradient(0deg, black, #444444);
+  }
+
+.glowing::after{
+    content: '';
+    position: absolute;
+    left: 15px;
+    top: 30px;
+    background: linear-gradient(45deg, #FADC43, #F4E38B, #F2D541, #736B41, #BFA834);
+    background-size: 400%;
+    width: calc(100% );
+    height: calc(70%);
+    filter: blur(10px);
+    z-index: -1;
+    animation: glower 20s ease-in-out infinite;
+  }
+  
+  @keyframes glower {
+    0% {
+      background-position: 0 0;
+    }
+    
+    50% {
+      background-position: 400% 0;
+    }
+    
+    100% {
+      background-position: 0 0;
+    }
+  }

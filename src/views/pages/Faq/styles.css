@@ -1,0 +1,102 @@
+.ant-collapse-header {
+    height: 56px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white !important;
+    border-left: 4px solid #94bd4b !important;
+}
+
+.ant-collapse-content-box {
+    justify-items: center;
+    align-items: center;
+    background-color: #121b1e !important;
+    border: 0px solid #121b1e !important;
+    box-shadow: 0px 5px 15px 5px rgba(0, 0, 0, 0.7)!important;
+}
+
+.ant-collapse-item {
+    border-bottom: 0px solid #121b1e !important;
+}
+
+.setting-scroll::-webkit-scrollbar {
+    width: 4px;
+    scroll-behavior: smooth;
+  }
+  
+.setting-scroll::-webkit-scrollbar-track {
+    background: #141f21;
+    scroll-behavior: smooth;
+  }
+  
+.setting-scroll::-webkit-scrollbar-thumb {
+    background: rgb(67, 142, 243);
+    background: linear-gradient(
+      0deg,
+      rgba(67, 142, 243, 1) 0%,
+      rgba(151, 214, 255, 1) 100%
+    );
+    scroll-behavior: smooth;
+  }
+
+  @keyframes bounceInLeftfaq {
+    from, 60%, 75%, 90%, to {
+      animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    }
+  
+    0% {
+      opacity: 0;
+      transform: translate3d(-800px, -180px, 0) scale(0.1);
+    }
+  
+    60% {
+      opacity: 1;
+      transform: translate3d(25px, 25px, 0) scale(1);
+  
+    }
+  
+    75% {
+      transform: translate3d(0px, 0px, 0);
+    }
+  
+    90% {
+      transform: translate3d(0px, 0px, 0);
+    }
+  
+    to {
+      transform: none;
+    }
+  }
+  .revers-rounded{
+    background: radial-gradient(circle at top right, transparent 70px, #0c1c22 71px) !important;
+  }
+  
+  .bounceInLeftfaq {
+    animation-name: bounceInLeftrank;
+  }
+  .animated {
+    animation-duration: 0.6s;
+    animation-fill-mode: both;
+  }
+  .animated2 {
+    animation-delay: 0.1s;
+    animation-duration: 0.6s;
+    animation-fill-mode: both;
+  }
+  .animated3 {
+    animation-delay: 0.1s;
+    animation-duration: 0.6s;
+    animation-fill-mode: both;
+  }
+
+  .SelecterRounded .ant-select-selector{
+    border-radius: 20px !important;
+    height: 30px !important;
+    background-color: #061319 !important;
+}
+
+.SelecterRounded .anticon-caret-down{
+    margin-bottom: 5px;
+  }
+  
+  
+

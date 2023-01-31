@@ -1,0 +1,96 @@
+[
+    {
+        "num": 1,
+        "level": 13,
+        "name": "SirDominic",
+        "us": "98,256 $",
+        "blc": "4,912.8 BLC",
+        "rank": "gold"
+    },
+    {
+        "num": 2,
+        "level": 12,
+        "name": "0xDr.Hash",
+        "us": "88,512 $",
+        "blc": "3,814.2 BLC",
+        "rank": "silver"
+    },
+    {
+        "num": 3,
+        "level": 11,
+        "name": "Satoshi",
+        "us": "75,212 $",
+        "blc": "2,732.5 BLC",
+        "rank": "bronze"
+    },
+    {
+        "num": 4,
+        "level": 12,
+        "name": "MoonShot",
+        "us": "88,212 $",
+        "blc": "2,732.5 BLC"
+    },
+    {
+        "num": 5,
+        "level": 12,
+        "name": "0xRockz",
+        "us": "88,212 $",
+        "blc": "2,732.5 BLC"
+    },
+    {
+        "num": 6,
+        "level": 12,
+        "name": "Satoshi",
+        "us": "88,212 $",
+        "blc": "2,732.5 BLC"
+    },
+    {
+        "num": 7,
+        "level": 12,
+        "name": "Satoshi",
+        "us": "88,212 $",
+        "blc": "2,732.5 BLC"
+    },
+    {
+        "num": 8,
+        "level": 12,
+        "name": "Satoshi",
+        "us": "88,212 $",
+        "blc": "2,732.5 BLC"
+    },
+    {
+        "num": 9,
+        "level": 12,
+        "name": "Satoshi",
+        "us": "88,212 $",
+        "blc": "2,732.5 BLC"
+    },
+    {
+        "num": 10,
+        "level": 12,
+        "name": "Satoshi",
+        "us": "88,212 $",
+        "blc": "2,732.5 BLC"
+    },
+    {
+        "num": 11,
+        "level": 12,
+        "name": "Satoshi",
+        "us": "88,212 $",
+        "blc": "2,732.5 BLC"
+    },
+    {
+        "num": 12,
+        "level": 8,
+        "name": "Satoshi",
+        "us": "88,212 $",
+        "blc": "2,732.5 BLC"
+    },
+    {
+        "num": 13,
+        "level": 9,
+        "name": "Satoshi",
+        "us": "88,212 $",
+        "blc": "2,732.5 BLC"
+    }
+]

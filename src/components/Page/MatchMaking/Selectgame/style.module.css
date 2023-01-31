@@ -1,0 +1,12 @@
+.search input{
+    font-size: 1.25em;
+    margin-left: 4px;
+    color: #fff !important;
+}
+
+.trapezoid{
+    border-bottom: 40px solid #72c2f5;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+
+}

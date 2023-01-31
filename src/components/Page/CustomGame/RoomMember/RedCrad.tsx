@@ -1,0 +1,156 @@
+import React, { useState } from 'react';
+import Avatar from "@Image/Home/avatar.png";
+import clanlogo from "@Image/clanlogo_demo.jpg";
+import Moveposition from "@Image/CustomGame/MovePosition.png";
+import { ReactComponent as Ping_good } from "@Image/CustomGame/ic_connection_good.svg";
+import { ReactComponent as Ping_medium } from "@Image/CustomGame/ic_connection_medium.svg";
+import { ReactComponent as Ping_weak } from "@Image/CustomGame/ic_connection_weak.svg";
+import { ChevronDownIcon } from "@heroicons/react/outline";
+import SelectAmount from './SelectAmount';
+
+import { Modal } from "antd"
+const RedCrad = () => {
+
+    const [showPopup, setShowPopup] = useState(false);
+    return (
+        <div className="grid grid-cols-3 xl:grid-cols-5 gap-4 h-full w-full px-5" >
+
+
+
+            <div>
+                <div className="w-full h-[250px] bg-gradient-to-t from-[#241418] to-[#451016] border-2 border-primary-red rounded-2xl relative">
+                    <img src={Avatar} className="w-full h-full object-contain" />
+
+
+
+
+                    <div className="absolute top-2 flex left-0 w-full h-1 rounded-md justify-center p-1">
+                        <img src={clanlogo} className="w-6 h-6 mr-1 " />
+                        <p className="font-medium text-lg shadow-[0_16px_15px_2px_#fff] ">
+                            Kamachan
+                        </p>
+                    </div>
+                    <div className="absolute bottom-24 flex left-0 w-full h-1 rounded-md justify-center  p-1">
+                        <p className="text-[30px] font-semibold uppercase shadow-[0_25px_20px_10px_#98221a]">
+                            ready
+                        </p>
+                    </div>
+                    <div className="absolute -bottom-1 -left-1 w-10 h-10 bg-primary-dark rounded-md font-bold text-center text-2xl p-1"> 12</div>
+                    <Ping_good className="w-6 h-6 absolute bottom-2 right-3" />
+                </div>
+                <div className="flex flex-col items-center">
+                    <p className="font-bold text-lg text-center mt-1 bg-[#080d0f] rounded-md w-20">5 $</p >
+                    <p className="font-bold text-sm text-center text-primary-green">= 62.5 BLC</p>
+
+                </div>
+            </div>
+
+            <div>
+                <div className="w-full h-[250px] bg-gradient-to-t from-[#241418] to-[#451016] border-2 border-primary-red rounded-2xl relative">
+                    <img src={Avatar} className="w-full h-full object-contain" />
+
+
+
+
+                    <div className="absolute top-2 flex left-0 w-full h-1 rounded-md justify-center p-1">
+                        <img src={clanlogo} className="w-6 h-6 mr-1 " />
+                        <p className="font-medium text-lg shadow-[0_16px_15px_2px_#fff] ">
+                            Kamachan
+                        </p>
+                    </div>
+                    <div className="absolute bottom-24 flex left-0 w-full h-1 rounded-md justify-center  p-1">
+                        <p className="text-[30px] font-semibold uppercase shadow-[0_25px_20px_10px_#98221a]">
+                            ready
+                        </p>
+                    </div>
+                    <div className="absolute -bottom-1 -left-1 w-10 h-10 bg-primary-dark rounded-md font-bold text-center text-2xl p-1"> 12</div>
+                    <Ping_weak className="w-6 h-6 absolute bottom-2 right-3" />
+                </div>
+                <div className="flex flex-col items-center">
+                    <p className="font-bold text-lg text-center mt-1 bg-[#080d0f] rounded-md w-20">5 $</p >
+                    <p className="font-bold text-sm text-center text-primary-green">= 62.5 BLC</p>
+
+                </div>
+            </div>
+
+            {/* Swiych Card */}
+            <div>
+                <div className="w-full h-[250px] bg-gradient-to-t from-[#241418] to-[#451016] border-2 border-primary-red rounded-2xl relative flex justify-center items-center">
+                    <div className="w-24 h-24  rounded-full cursor-pointer ">
+                        <img src={Moveposition} className="w-full h-full object-contain" />
+                    </div>
+
+
+                </div>
+                <div className="flex flex-col items-center">
+                    <p className="font-bold text-lg text-center mt-1 bg-[#080d0f] rounded-md w-20">0 $</p >
+                    <p className="font-bold text-sm text-center text-primary-green">= 0 BLC</p>
+
+                </div>
+            </div>
+
+            {/* Card player with select amount */}
+            <div>
+                <div className="w-full h-[250px] bg-gradient-to-t from-[#241418] to-[#451016] border-2 border-primary-red rounded-2xl relative">
+                    <img src={Avatar} className="w-full h-full object-contain" />
+                    <div className="absolute top-2 flex left-0 w-full h-1 rounded-md justify-center p-1">
+                        <img src={clanlogo} className="w-6 h-6 mr-1 " />
+                        <p className="font-medium text-lg shadow-[0_16px_15px_2px_#fff] ">
+                            Kamachan
+                        </p>
+                    </div>
+                    <div className="absolute bottom-24 flex left-0 w-full h-1 rounded-md justify-center  p-1">
+
+                    </div>
+                    <div className="absolute -bottom-1 -left-1 w-10 h-10 bg-primary-dark rounded-md font-bold text-center text-2xl p-1"> 12</div>
+                    <Ping_weak className="w-6 h-6 absolute bottom-2 right-3" />
+                </div>
+                <div className="flex flex-col items-center relative">
+                    <div className="a absolute w-7 h-7 bg-gradient-to-tl cursor-pointer flex items-center justify-center from-primary-dark to-primary-light rounded-md top-1 right-[15%] shadow-lg"
+                        onClick={() => setShowPopup(true)}>
+                        <ChevronDownIcon className="w-4 h-4" />
+                    </div>
+                    <Modal visible={showPopup} centered footer={null} title={null} closable={false} bodyStyle={{ padding: "0px" }} className="p-0 w-full h-auto flex items-center justify-center">
+                        <SelectAmount setShowPopup={setShowPopup} />
+                    </Modal>
+                    <p className="font-bold text-lg text-center mt-1 bg-[#080d0f] rounded-md w-20">5 $</p >
+                    <p className="font-bold text-sm text-center text-primary-green">= 62.5 BLC</p>
+
+                </div>
+            </div>
+
+            
+            {/* Host Card */}
+            <div>
+                <div className="w-full h-[250px] bg-gradient-to-t from-[#241418] to-[#451016] border-2 border-primary-red rounded-2xl relative">
+                    <img src={Avatar} className="w-full h-full object-contain" />
+
+
+
+
+                    <div className="absolute top-2 flex left-0 w-full h-1 rounded-md justify-center p-1">
+                        <img src={clanlogo} className="w-6 h-6 mr-1 " />
+                        <p className="font-medium text-lg shadow-[0_16px_15px_2px_#fff] ">
+                            Kamachan
+                        </p>
+                    </div>
+                    <div className="absolute bottom-24 flex left-0 w-full h-1 rounded-md justify-center  p-1">
+                        <p className="text-[30px] font-semibold uppercase shadow-[0_25px_20px_10px_#98221a]">
+                            HOST
+                        </p>
+                    </div>
+                    <div className="absolute -bottom-1 -left-1 w-10 h-10 bg-primary-dark rounded-md font-bold text-center text-2xl p-1"> 12</div>
+                    <Ping_medium className="w-6 h-6 absolute bottom-2 right-3" />
+                </div>
+                <div className="flex flex-col items-center">
+                    <p className="font-bold text-lg text-center mt-1 bg-[#080d0f] rounded-md w-20">5 $</p >
+                    <p className="font-bold text-sm text-center text-primary-green">= 62.5 BLC</p>
+
+                </div>
+            </div>
+
+        </div>
+    );
+}
+
+export default RedCrad;

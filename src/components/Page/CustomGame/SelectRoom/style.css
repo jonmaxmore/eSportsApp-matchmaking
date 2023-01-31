@@ -1,0 +1,33 @@
+.selec .ant-select-selector{
+    background-color: #0b1113 !important;
+    border: none !important;
+    border-radius: 16px !important;
+}
+
+.selec .ant-select-selection-item{
+    text-align: left !important;
+    justify-content: flex-start !important;
+    padding-left: 10px !important;
+}
+
+.scroll::-webkit-scrollbar{
+    width: 5px;
+}
+
+.scroll::-webkit-scrollbar-thumb{
+    border-radius: 2px;
+}
+
+
+.searchroom input{
+    color: #fff;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+
+.Enterpass input{
+    color: #fff;
+    margin-left: 10px;
+    font-size: 16px;
+}

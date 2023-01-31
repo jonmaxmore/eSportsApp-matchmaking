@@ -1,0 +1,7 @@
+.selectContact .ant-select-selector{
+    border: none !important;
+}
+.ant-select-item-option-active:not(.ant-select-item-option-disabled) {
+    background-color: #f5f5f5;
+    color: #000;
+}

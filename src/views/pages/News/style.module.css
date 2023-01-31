@@ -1,0 +1,236 @@
+.tab {
+  width: 100%;
+  height: 60px;
+  border-left: 3px solid #5d752f;
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(20, 41, 54);
+  background: linear-gradient(
+    90deg,
+    rgba(20, 41, 54, 1) 0%,
+    rgba(11, 21, 30, 1) 100%
+  );
+}
+.tabWord {
+  font-weight: 800;
+  color: #95bd4c !important;
+}
+.dots{
+  display: flex;
+  justify-content: flex-start !important;
+  align-items: center;
+  margin-right: 0% !important;
+  margin-left: 40px !important;
+}
+
+.Carousel {
+  width: 100%;
+  position: absolute !important;
+  top: 0;
+  left: 0;
+}
+
+
+
+.Carousel li{
+  background: #fff !important;
+  
+}
+
+
+
+.Carousel .slick-slider .slick-dots .slick-active button{
+  background: #95be4c !important;
+}
+
+
+.bord{
+  position: relative;
+}
+
+.Unit {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.tab div {
+  display: flex;
+  grid-gap: 5px;
+}
+
+.titel {
+  font-weight: bold;
+  font-size: 14px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.Slider {
+  width: 200px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Rankbord {
+  width: 50%;
+  height: calc(100vh - 495px);
+  background-color: #0b151e;
+}
+
+
+.Rankbord2 {
+  width: 50%;
+  height: calc(100vh - 530px);
+  background-color: #0b151e;
+  margin-bottom: 120px;
+}
+
+.filter {
+  background-color:#060d10;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px;
+}
+
+.filterBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px 25px;
+  border-radius: 20px;
+  background-color: #94bd4b;
+  color: #000;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.filterBoxDeactive {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px 25px;
+  border-radius: 20px;
+  background-color: #000;
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+
+
+::-webkit-scrollbar {
+  width: 0px;
+  scroll-behavior: smooth;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #141f21;
+  scroll-behavior: smooth;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #5ba3f6;
+  scroll-behavior: smooth;
+}
+
+.cardScore {
+  width: 90%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.rankNumber {
+  margin-left: 15px;
+  margin-right: 10px;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.cardLeft {
+  display: flex;
+  align-items: center;
+  grid-gap: 10px;
+}
+
+.avatar {
+  width: 40px;
+  height: 50px;
+}
+
+
+.money {
+  font-size: 18px;
+  font-weight: 800;
+  text-align: center;
+  color: #fff;
+}
+
+.cerrency {
+  font-size: 10px;
+  font-weight: 800;
+  text-align: center;
+  color: #94bd4b;
+}
+
+
+
+.cardgrid {
+  width: 100%;
+  height: calc(100vh - 555px);
+  background-color: #0b151e;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  overflow-y: auto;
+}
+
+.cardNews {
+  width: 100%;
+  height: 380px;
+  background-color: #4b4e4e;
+  border: 1px solid #000;
+  overflow: hidden;
+  position: relative;
+}
+
+.cardDetail {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 10px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+.cardNewsTitle {
+  font-size: 25px;
+  font-weight: bold;
+  color: #fff;
+}
+.cardtype {
+  font-weight: bold;
+  color: #62b6ec;
+}
+.cardDate {
+  font-size: 10px;
+  font-weight: bold;
+  color: rgb(131, 121, 121);
+}
+

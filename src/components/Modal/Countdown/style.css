@@ -1,0 +1,36 @@
+.hexagon {
+    clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+}
+
+.hexagonImg {
+    clip-path: polygon(0 25%, 50% 0, 100% 26%, 100% 75%, 50% 100%, 0 74%);
+}
+
+.hexagon1 {
+    clip-path: polygon(1% 27%, 0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%, 2% 24%, 2% 73%, 50% 98%, 98% 73%, 98% 27%, 50% 2%);
+}
+
+
+
+.hexagon-shadow {
+    clip-path: polygon(6% 31%, 0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%, 7% 31%, 6% 69%, 50% 94%, 94% 69%, 94% 31%, 50% 6%);
+}
+
+
+
+.Opacitygradient {
+    -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+      mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+}
+
+.stokehexagon{
+    clip-path: polygon(1% 25%, 50% -0%, 99% 26%, 99% 75%, 50% 100%, 1% 74%, 1% 25%, 2.5% 25%, 2.5% 73.5%, 50% 99%, 97.5% 74.5%, 97.5% 27%, 50% 1.5%, 1% 27%);
+}
+
+.hexagon3{
+    clip-path: polygon(0 25%, 50% 0, 99% 25%, 99% 72%, 49% 99%, 0 72%, 0 25%, 8% 25%, 8% 68%, 50% 89%, 90.5% 68%, 90.5% 29.5%, 50% 8.5%, 8% 28.5%);
+}
+
+.TextShadow{
+    text-shadow: #58afe6 0px 0px 15px;
+}

@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: "Outfit";
+        font-weight: 100;
+        src: url("/fonts/outfit/static/Outfit-Thin.ttf");
+    }
+    @font-face {
+        font-family: "Outfit";
+        font-weight: 200;
+        src: url("/fonts/outfit/static/Outfit-ExtraLight.ttf");
+    }
+    @font-face {
+        font-family: "Outfit";
+        font-weight: 300;
+        src: url("/fonts/outfit/static/Outfit-Light.ttf");
+    }
+    @font-face {
+        font-family: "Outfit";
+        font-weight: 400;
+        src: url("/fonts/outfit/static/Outfit-Regular.ttf");
+    }
+    @font-face {
+        font-family: "Outfit";
+        font-weight: 500;
+        src: url("/fonts/outfit/static/Outfit-Medium.ttf");
+    }
+    @font-face {
+        font-family: "Outfit";
+        font-weight: 600;
+        src: url("/fonts/outfit/static/Outfit-SemiBold.ttf");
+    }
+    @font-face {
+        font-family: "Outfit";
+        font-weight: 700;
+        src: url("/fonts/outfit/static/Outfit-Bold.ttf");
+    }
+    @font-face {
+        font-family: "Outfit";
+        font-weight: 800;
+        src: url("/fonts/outfit/static/Outfit-ExtraBold.ttf");
+    }
+    @font-face {
+        font-family: "Outfit";
+        font-weight: 900;
+        src: url("/fonts/outfit/static/Outfit-Black.ttf");
+    }
+}
+.social-logins{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+  }
+  .social-logins i{
+    font-size: 50px;
+    color: #fff;
+    cursor: pointer;
+  }
+  h6.social-reg{
+    color: #fff;
+    text-align: center;
+    width: 30%; 
+   text-align: center; 
+   border-bottom: 1px solid rgb(255, 255, 255); 
+   line-height: 0.1em;
+   padding-top: 30px;
+   margin: auto;
+  }
+  h6.social-log{
+    color: #fff;
+    text-align: center;
+    width: 60%; 
+   text-align: center; 
+   border-bottom: 1px solid rgb(255, 255, 255); 
+   line-height: 0.1em;
+   padding-top: 30px;
+   margin: auto;
+  }
+  h6.social-log span ,h6.social-reg span { 
+    font-size: 30px;
+    background:#253d4c; 
+    padding:0 40px; 
+}

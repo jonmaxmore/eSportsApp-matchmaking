@@ -1,0 +1,16 @@
+.ant-pagination-item {
+  background: transparent !important;
+  border: none !important;
+}
+.ant-pagination-item a {
+  color: white !important;
+}
+.ant-pagination-item-active a {
+  color: #28afe7 !important;
+}
+
+.ant-pagination-prev .ant-pagination-item-link, .ant-pagination-next .ant-pagination-item-link {
+  background: #142C39 !important;
+  border: none !important;
+  color: white !important;
+}

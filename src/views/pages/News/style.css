@@ -1,0 +1,122 @@
+.slick-active button {
+  background-color: #95be4c !important;
+  height: 4px !important;
+}
+
+.slick-dots li {
+  width: 50px !important;
+  height: 4px !important;
+  margin-right: 10px !important;
+  margin-left: 10px !important;
+}
+
+.buttonin {
+  background-color: #95be4c !important;
+  height: 70px !important;
+}
+
+.slick-list {
+  overflow: visible !important;
+  overflow-x: clip !important;
+}
+
+.slick-slide {
+  display: none;
+}
+
+.slick-active {
+  display: block !important;
+}
+
+/* .ant-carousel .slick-slide img{
+  display: none !important;
+} */
+
+/* absuloteimg */
+
+@media (max-width: 1540px) {
+    .absuloteimg {
+        display: none !important;
+    }
+}
+
+
+
+@keyframes bounceInLeft2 {
+  from, 60%, 75%, 90%, to {
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+
+  0% {
+    opacity: 0;
+    transform: translate3d(-800px, -400px, 0) scale(0.1);
+  }
+
+  60% {
+    opacity: 1;
+    transform: translate3d(25px, 25px, 0) scale(1);
+
+  }
+
+  75% {
+    transform: translate3d(0px, 0px, 0);
+  }
+
+  90% {
+    transform: translate3d(0px, 0px, 0);
+  }
+
+  to {
+    transform: none;
+  }
+}
+
+.bounceInLeft {
+  animation-name: bounceInLeft2;
+}
+.animated {
+  animation-duration: 0.8s;
+  animation-fill-mode: both;
+}
+.animated2 {
+  animation-delay: 0.1s;
+  animation-duration: 0.8s;
+  animation-fill-mode: both;
+}
+.animated3 {
+  animation-delay: 0.1s;
+  animation-duration: 0.8s;
+  animation-fill-mode: both;
+}
+
+@keyframes bounceInDown {
+  from, 60%, 75%, 90%, to {
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+
+  0% {
+    opacity: 0;
+    transform: translate3d(0, -3000px, 0);
+  }
+
+  60% {
+    opacity: 1;
+    transform: translate3d(0, 25px, 0);
+  }
+
+  75% {
+    transform: translate3d(0, -10px, 0);
+  }
+
+  90% {
+    transform: translate3d(0, 5px, 0);
+  }
+
+  to {
+    transform: none;
+  }
+}
+
+.bounceInDown {
+  animation-name: bounceInDown;
+}
